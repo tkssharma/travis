@@ -24,7 +24,7 @@ describe('The HelloWorld component', function() {
       setTimeout(done);
     });
 
-    it('should have a textContent of "Hello World!', function() {
+    it('should of "Hello World!', function() {
       assert.equal(component.getDOMNode().textContent, 'Hello World!');
     });
 
